@@ -1,4 +1,9 @@
-h1, h2, h3, ul, li, p {
+h1,
+h2,
+h3,
+ul,
+li,
+p {
   margin: 0;
   padding: 0;
 }
@@ -14,19 +19,19 @@ body {
 }
 
 header {
-  padding: 50px;
+  padding: 40px;
   background-color: cornflowerblue;
   text-align: center;
-  color:white;
+  color: white;
   margin-bottom: 12px;
 }
 
 main {
-  max-width:800px;
+  max-width: 800px;
   padding: 20px;
   margin: auto;
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
 }
 
 main form {
@@ -37,7 +42,11 @@ main article {
   width: 45%;
 }
 
-h1, h2, h3, h4, p {
+h1,
+h2,
+h3,
+h4,
+p {
   margin-bottom: 1em;
 }
 
@@ -50,7 +59,9 @@ label {
   margin-bottom: .5em;
 }
 
-input, textarea, #destination_details_form button {
+input,
+textarea,
+#destination_details_form button {
   display: block;
   width: 100%;
   margin-bottom: 1em;
@@ -60,8 +71,8 @@ input, textarea, #destination_details_form button {
 }
 
 #destination_details_form button {
-  color:white;
-  background-color:rgb(43, 91, 180);
+  color: white;
+  background-color: rgb(43, 91, 180);
 }
 
 .card {
@@ -71,22 +82,41 @@ input, textarea, #destination_details_form button {
 }
 
 img {
-  height: 180px;
-  width: 100%;
-  margin:0;
-  padding:0;
+  width: 300px;
+  vertical-align: center;
+  margin-top: 20px;
+  ;
+  padding: 0;
 }
 
-.card-body h4, .card-body p{
+.card-body h4,
+.card-body p {
   text-align: center;
-  display:block;
+  display: block;
 }
 
 .wrapper {
   text-align: center;
 }
 
-.button {
-  position: absolute;
-  top: 50%;
+.imgDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.card-text {
+  padding: 0px 10px;
+}
+
+.wrapper{
+  display:flex;
+  justify-content: center;
+}
+
+#remove {
+  border-width: 1px;
+  border-radius: 6px;
+  border-color:rgb(172, 172, 172);
+  padding: 8px 50px 8px 50px;
+  background-color: blanchedalmond;
 }
